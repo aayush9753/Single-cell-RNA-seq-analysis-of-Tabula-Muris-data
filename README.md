@@ -5,7 +5,7 @@ I have made all the notebooks using Kaggle kernel and they can also be viewed th
 * [Tabula Muris](https://tabula-muris.ds.czbiohub.org/) is a compendium of single-cell transcriptome data from the model organism Mus musculus, containing nearly 100,000 cells from 20 organs and tissues. 
 * The data allow for direct and controlled comparison of gene expression in cell types shared between tissues, such as immune cells from distinct anatomical locations.
 * **This data consists of:**
- * **An expression matrix where each column corresponds to a gene (or transcript) and each row corresponds to a single cell.**
+ * <b> An expression matrix where each column corresponds to a gene (or transcript) and each row corresponds to a single cell.</b>
  * **A table of metadata describing each cell.**
 
 
