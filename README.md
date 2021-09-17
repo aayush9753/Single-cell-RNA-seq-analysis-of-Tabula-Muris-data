@@ -32,14 +32,18 @@ I have made all the notebooks using Kaggle kernel and they can also be viewed th
 * UMAP
 2. Clustering
 * k-Means on tSNE
-** Evaluating the k-means clustering
-** Playing with No of cluster in k-means
+  ** Evaluating the k-means clustering
+  ** Playing with No of cluster in k-means
 * Graph Based Clustering Method - Louvain
-** Tuning thr resolution parameter
+  ** Tuning thr resolution parameter
 * Seeing clusters in cells of a perticular sybtissue
 
-### 5. Theory - Introduction to single-cell RNA-seq - [Kaggle Link](https://www.kaggle.com/aayush9753/theory-introduction-to-single-cell-rna-seq?scriptVersionId=74733387) 
-- Covers most of the theoretical concepts about Bulk RNA-seq, scRNA-seq and Computational Analysis.
+### 5. Differential expression - [Kaggle Link](https://www.kaggle.com/aayush9753/5-differential-expression-in-single-cell-rna-seq) 
+- Building intuition of differential expression
+- Ttest
+- Working with whole dataset using original labels - "cell_ontology_class"
+- Working with whole dataset using "louvain" clusters
+- Comapring to known marker genes of call classes
 
 
 ![](https://github.com/aayush9753/Single-cell-RNA-seq-analysis/blob/main/imgs/msb188746-fig-0001-m.jpg)
