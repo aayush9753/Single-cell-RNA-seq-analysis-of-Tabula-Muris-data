@@ -1,9 +1,7 @@
 <p align="center">
-<br>
-<h1 style = "font-size:60px; font-family:Garamond ; font-weight : normal; background-color: #f6f5f5 ; color : #fe346e; text-align: center; border-radius: 100px 100px;">Single-cell-RNA-seq-analysis</h1>
-<br>
+  # Single-cell-RNA-seq-analysis
 </p>
-# Single-cell-RNA-seq-analysis
+
 I have made all this notebooks using Kaggle kernel and this can be also viewed there.
 
 ### Dataset link - https://www.kaggle.com/aayush9753/singlecell-rnaseq-data-from-mouse-brain
