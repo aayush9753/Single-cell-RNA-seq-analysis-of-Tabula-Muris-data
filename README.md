@@ -2,20 +2,42 @@
 I have made all the notebooks using Kaggle kernel and they can also be viewed there.
 
 ### Dataset link - https://www.kaggle.com/aayush9753/singlecell-rnaseq-data-from-mouse-brain
-### 1. Theory - Introduction to single-cell RNA-seq - [Kaggle Link](https://www.kaggle.com/aayush9753/theory-introduction-to-single-cell-rna-seq?scriptVersionId=74733387) 
+
+
+### 0. Theory - Introduction to single-cell RNA-seq - [Kaggle Link](https://www.kaggle.com/aayush9753/theory-introduction-to-single-cell-rna-seq?scriptVersionId=74733387) 
 - Covers most of the theoretical concepts about Bulk RNA-seq, scRNA-seq and Computational Analysis.
-### 2. AnnData and Preprocessing spike-ins - [Kaggle Link](https://www.kaggle.com/aayush9753/1-anndata-and-preprocessing-spike-ins) 
+
+### 1. AnnData and Preprocessing spike-ins - [Kaggle Link](https://www.kaggle.com/aayush9753/1-anndata-and-preprocessing-spike-ins) 
 - Theory behind AnnData objects
 - Exploring a test anndata
 - Creating Anndata from the csv files in the dataset
 - Preprocessing the labeling spike-ins
-### 3. Quality Control in Single cell RNA-seq data - [Kaggle Link](https://www.kaggle.com/aayush9753/2-quality-control-in-single-cell-rna-seq-data) 
+
+
+### 2. Quality Control in Single cell RNA-seq data - [Kaggle Link](https://www.kaggle.com/aayush9753/2-quality-control-in-single-cell-rna-seq-data) 
 - Calculated the quality control metrices across cells and genes.
 - Quality control in cells by removing cells with less total gene count, less unique genes and giving more spike-ins.
 - Quality control in genes by removing genes which occur in less unique cells as well as those genes having less total cells.
-- Saving the quality controlled data for further pipeline.
-### 4. Theory - Introduction to single-cell RNA-seq - [Kaggle Link](https://www.kaggle.com/aayush9753/theory-introduction-to-single-cell-rna-seq?scriptVersionId=74733387) 
-- Covers most of the theoretical concepts about Bulk RNA-seq, scRNA-seq and Computational Analysis.
+
+### 3. Normalization & PCA - [Kaggle Link](https://www.kaggle.com/aayush9753/3-normalization-pca-in-single-cell-rna-seq-data#Normalizing-gene-expression) 
+- Directly applying PCA on quality controlled data
+- Applying CPM normalization and then PCA
+- Normalizing each cell by total counts over all genes and excluding highly_expressed genes and then PCA
+- Removing offending gene Rn45s and then PCA
+- Final, Normalization by log1p and scaling and then PCA.
+
+### 4. Dimensionality reduction and Clustering - [Kaggle Link](https://www.kaggle.com/aayush9753/4-dimensionality-reduction-and-clustering) 
+1. Dimensionality Reduction
+* tSNE
+* UMAP
+2. Clustering
+* k-Means on tSNE
+** Evaluating the k-means clustering
+** Playing with No of cluster in k-means
+* Graph Based Clustering Method - Louvain
+** Tuning thr resolution parameter
+* Seeing clusters in cells of a perticular sybtissue
+
 ### 5. Theory - Introduction to single-cell RNA-seq - [Kaggle Link](https://www.kaggle.com/aayush9753/theory-introduction-to-single-cell-rna-seq?scriptVersionId=74733387) 
 - Covers most of the theoretical concepts about Bulk RNA-seq, scRNA-seq and Computational Analysis.
 
