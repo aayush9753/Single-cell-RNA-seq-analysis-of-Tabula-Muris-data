@@ -1,3 +1,4 @@
+<p align="center">
 <br>
 <h1 style = "font-size:60px; font-family:Garamond ; font-weight : normal; background-color: #f6f5f5 ; color : #fe346e; text-align: center; border-radius: 100px 100px;">Single-cell-RNA-seq-analysis</h1>
 <br>
